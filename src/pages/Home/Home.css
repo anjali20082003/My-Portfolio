@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    color: white
+    ;
+    margin-top: 3rem;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+   
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 2rem;
+  }
+  

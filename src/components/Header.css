@@ -1,0 +1,30 @@
+.Header{
+   
+    background: linear-gradient(to bottom, #000000, #434343, #666666);
+
+
+
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+   width: 100%;
+    top: 0;
+    position: fixed;
+
+}
+.Header a {
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3 ease;
+
+}
+
+.Header a:hover{
+    color: #f39c12;
+
+}
+.Header a.active{
+    color: #f39c12;
+}

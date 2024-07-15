@@ -1,0 +1,72 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color:#cfe9ff;
+    margin-top: 3rem;
+    height: 90vh;
+    position: fixed;
+    width: 100%;
+
+  }
+
+  .technical-skill{
+    background-color: #609df8;  
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+   color: white;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+  }
+  .skill-box{
+    display: grid;
+    gap: 10px;
+    width: 98%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+  }
+ 
+
+
+
+  .skill{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #83b4FF;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem ;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  
+  .skill:hover {
+    box-shadow: 8px 8px 16px rgba(143, 33, 33, 0.2); 
+}
+
+  .icon{
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .technical-skill-1{
+    background-color: #609df8;  
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    margin-top: 6%;
+   color: white;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+  }
